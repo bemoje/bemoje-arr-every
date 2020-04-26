@@ -1,6 +1,6 @@
 # @bemoje/arr-every
 
-Returns true if the predicate  is satisfied for every element of the passed array; otherwise false.
+Returns true if the predicate is satisfied for every element of the passed array; otherwise false.
 
 #### Version
 
@@ -63,13 +63,13 @@ npm run test
 ### arrEvery
 
 ##### Returns
-true if the predicate  is satisfied for every element of the passed array; otherwise false.
+true if the predicate is satisfied for every element of the passed array; otherwise false.
 
 ##### Parameters
 
 -   `arr` **[Array][5]** The array
 
--   `callback` **[predicate][6]** The callback
+-   `callback` **[predicate][6]** A callback predicate
 
 ##### Returns
 **[boolean][7]** 

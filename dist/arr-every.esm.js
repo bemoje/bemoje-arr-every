@@ -2,9 +2,9 @@ import assertArgs from '@bemoje/assert-args';
 import assertType from '@bemoje/assert-type';
 
 /**
- * Returns true if the predicate  is satisfied for every element of the passed array; otherwise false.
+ * Returns true if the predicate is satisfied for every element of the passed array; otherwise false.
  * @param {Array} arr - The array
- * @param {predicate} callback - The callback
+ * @param {predicate} callback - A callback predicate
  * @returns {boolean}
  */
 function arrEvery(arr, callback) {
@@ -13,7 +13,7 @@ function arrEvery(arr, callback) {
 	assertType(Function, callback);
 
 	for (let i = 0, len = arr.length; i < len; i++) {
-		if (!callback(arr[i], i, arr)) {
+		if (callback(arr[i], i, arr) === false) {
 			return false
 		}
 	}
