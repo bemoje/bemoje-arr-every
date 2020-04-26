@@ -26,4 +26,5 @@ export default function arrEvery(arr, callback) {
  * @param {*} element - The array element
  * @param {number} index - The element's index in the array
  * @param {Array} arr - The array
+ * @returns {boolean}
  */

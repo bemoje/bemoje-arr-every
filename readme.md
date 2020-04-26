@@ -86,6 +86,9 @@ Type: [Function][8]
 
 -   `arr` **[Array][5]** The array
 
+##### Returns
+**[boolean][7]** 
+
 [1]: #arrevery
 
 [2]: #parameters

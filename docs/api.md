@@ -28,6 +28,8 @@ Type: [Function][8]
 -   `index` **[number][9]** The element's index in the array
 -   `arr` **[Array][5]** The array
 
+Returns **[boolean][7]** 
+
 [1]: #arrevery
 
 [2]: #parameters
