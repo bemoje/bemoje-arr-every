@@ -8,9 +8,9 @@
 	assertType = assertType && Object.prototype.hasOwnProperty.call(assertType, 'default') ? assertType['default'] : assertType;
 
 	/**
-	 * Returns true if the predicate callback returns true for every element of the passed array; otherwise false.
+	 * Returns true if the predicate  is satisfied for every element of the passed array; otherwise false.
 	 * @param {Array} arr - The array
-	 * @param {predicateCallback} callback - The callback
+	 * @param {predicate} callback - The callback
 	 * @returns {boolean}
 	 */
 	function arrEvery(arr, callback) {
@@ -28,7 +28,7 @@
 	}
 
 	/**
-	 * @callback predicateCallback
+	 * @callback predicate
 	 * @param {*} element - The array element
 	 * @param {number} index - The element's index in the array
 	 * @param {Array} arr - The array

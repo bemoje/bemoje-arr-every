@@ -4,21 +4,21 @@
 
 -   [arrEvery][1]
     -   [Parameters][2]
--   [predicateCallback][3]
+-   [predicate][3]
     -   [Parameters][4]
 
 ## arrEvery
 
-Returns true if the predicate callback returns true for every element of the passed array; otherwise false.
+Returns true if the predicate  is satisfied for every element of the passed array; otherwise false.
 
 ### Parameters
 
 -   `arr` **[Array][5]** The array
--   `callback` **[predicateCallback][6]** The callback
+-   `callback` **[predicate][6]** The callback
 
 Returns **[boolean][7]** 
 
-## predicateCallback
+## predicate
 
 Type: [Function][8]
 
@@ -34,13 +34,13 @@ Returns **[boolean][7]**
 
 [2]: #parameters
 
-[3]: #predicatecallback
+[3]: #predicate
 
 [4]: #parameters-1
 
 [5]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-[6]: #predicatecallback
+[6]: #predicate
 
 [7]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 
